@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box; /* idk what it does */   
+}
+
+body {
+    margin: 0;
+    background-color: rgb(53, 39, 57);
+}
+
+.title {
+    font-style: italic;
+    margin-left: 1rem;  /* change this to push the title right or left */
+}
+
+.nav {  /* The whole navbar */
+    font-family: Jetbrains mono;
+    font-size: 1.5rem;      /* font size of texts in navbar */
+    background-color: #bc4b4b;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-list {    /* the whole list of buttons */
+    display: flex;
+    flex-wrap: wrap;    /* for wrapping the buttons */
+    margin: 0;
+    list-style: none;
+}
+
+.link { /*  for each buttons */
+    padding: 1rem;  /* Change this to increase the nav size */
+}
+
+.link a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.link:last-child {  /* the last button */
+    padding-right: 1rem;    /* change this to push the nav buttons left or right*/
+}
